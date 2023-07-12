@@ -1,0 +1,34 @@
+
+Opciones
+
+Tiene quench heaters?
+-HeaterStatus
+-tdel
+
+Incluimos tiempos de detección/validación/actuación de Quench?
+-Vdet
+-tdet
+-tval
+
+Cuantos elemento se ponen a current sharing ElemQuench, ElemQuench+Ne, ElemQuench+nNe?
+
+Input   ->Temperatura de operación
+        ->Campo magnético 
+Calcula ->Jc
+
+Input -> Jc fit
+
+
+Dudas, 
+
+en relación volumétrica de superconductor Rsc qué es 1.75?
+Qué es Lov?
+Qué es Templo?
+intII?
+intE?
+V?
+V1?
+V2?
+V3?
+R?
+

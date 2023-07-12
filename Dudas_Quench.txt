@@ -1,0 +1,52 @@
+
+
+No entiendo que es:
+
+%tempLo
+%Lov
+%Lo=interp1(tempLo,Lov,T);
+Kcu=Lo.*T./rocu;            ->    La conductividad térmica del cobre la sacamos de la temperatura, la constante 
+				  de Lorentz y la resistividad de cobre en funcion de RRR,T y B
+				  Pero es que Lo puede venir dada también por una lista de valores tempLo y Lov
+
+
+
+T=zeros(Ne*m,1);	    % tension inicial              -> Es temperatura?
+Tnew=To*ones(Ne*m,1);       % tension en el paso siguiente -> Es temperatura?
+
+
+De donde sale Kcu -> guardado como: CT_Cu_1 en la carpeta
+	      Knbti1
+              KNbti2
+
+
+
+								  \
+B0=1.4142*2.23*I(1)/1625; 					  |
+% 2.23 T. 1.4142* para adicion de campo de OD. 			  |
+campo magnetico inicial en conductores en T (luego matriz?)        \
+B0=2.24*I(1)/1630;                                                  -> De donde sale esta fórmula?
+B0=2.46*I(1)/1790;                                                 /
+B0=2.73*I(1)/1630; 						  |
+*1.4142= raiz de 2, ambos dipolos en corriente                    |
+								  /
+
+Rsc=1-(1.75/(1.75+1));		% relacion volumetrica de superconductor -> De donde sale esta fórmula? Qué es 1.75?
+
+
+
+
+Tc=9.4*(1-B/14.5)^0.59;                  % temperatura critica		-> De dónde sale esta fórmula?
+Tcs=To+(Tc-To)*(1-I(1)/Ic);              % temperatura current-sharing	-> De dónde sale esta fórmula?
+
+
+% Proceso iterativo de resoluciï¿½n del problema
+Qué es Lturn? Inductancia?
+
+
+
+%%%%%%%%% - MATRICES - %%%%%%%%%
+
+En lo horizontal:
+
+vaux 
